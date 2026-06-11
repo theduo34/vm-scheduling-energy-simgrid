@@ -15,6 +15,7 @@ add_executable(simulation
     src/metrics/metrics.cpp
     src/scheduling/scheduler_factory.cpp
     src/scheduling/policies/round_robin_scheduler.cpp
+    src/scheduling/policies/first_fit_scheduler.cpp
     src/simulation/simulation.cpp
 )
 target_link_libraries(simulation PUBLIC ${SimGrid_LIBRARY})
