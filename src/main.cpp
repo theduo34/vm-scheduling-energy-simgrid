@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
 {
     if (argc < 4) {
         std::fprintf(stderr, "Usage: %s <platform.xml> <policy> <scenario>\n", argv[0]);
-        std::fprintf(stderr, "  policy   : roundrobin\n");
+        std::fprintf(stderr, "  policy   : roundrobin | firstfit | bestfit | energyaware\n");
         std::fprintf(stderr, "  scenario : light | moderate | heavy\n");
         std::fprintf(stderr, "  e.g.  ./build/simulation platform/datacenter.xml roundrobin heavy\n");
         return 1;

@@ -17,6 +17,7 @@ add_executable(simulation
     src/scheduling/policies/round_robin_scheduler.cpp
     src/scheduling/policies/first_fit_scheduler.cpp
     src/scheduling/policies/best_fit_scheduler.cpp
+    src/scheduling/policies/energy_aware_best_fit_scheduler.cpp
     src/simulation/simulation.cpp
 )
 target_link_libraries(simulation PUBLIC ${SimGrid_LIBRARY})

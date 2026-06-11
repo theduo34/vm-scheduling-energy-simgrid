@@ -3,6 +3,7 @@
 #include <stdexcept>
 
 #include "scheduling/policies/best_fit_scheduler.h"
+#include "scheduling/policies/energy_aware_best_fit_scheduler.h"
 #include "scheduling/policies/first_fit_scheduler.h"
 #include "scheduling/policies/round_robin_scheduler.h"
 
@@ -14,7 +15,9 @@ std::unique_ptr<SchedulerPolicy> create_scheduler(const std::string& policy_name
         return std::make_unique<FirstFitScheduler>();
     if (policy_name == "bestfit")
         return std::make_unique<BestFitScheduler>();
+    if (policy_name == "energyaware")
+        return std::make_unique<EnergyAwareBestFitScheduler>();
 
     throw std::invalid_argument(
-        "Unknown policy '" + policy_name + "'. Use: roundrobin | firstfit | bestfit");
+        "Unknown policy '" + policy_name + "'. Use: roundrobin | firstfit | bestfit | energyaware");
 }
