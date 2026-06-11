@@ -5,77 +5,97 @@
 
     <!-- ================================================================ -->
     <!-- TYPE A: High Capacity (6 hosts)                                   -->
-    <!-- 8 cores @ 2.4 GHz  |  idle: 120 W  |  peak: 250 W               -->
+    <!-- 8 cores @ 2.4 GHz  |  8 GB RAM  |  idle: 120 W  |  peak: 250 W   -->
     <!-- ================================================================ -->
     <host id="hostA1" speed="2.4Gf" core="8">
       <prop id="wattage_per_state" value="120.0:250.0"/>
+      <prop id="ram_mb" value="8192"/>
     </host>
     <host id="hostA2" speed="2.4Gf" core="8">
       <prop id="wattage_per_state" value="120.0:250.0"/>
+      <prop id="ram_mb" value="8192"/>
     </host>
     <host id="hostA3" speed="2.4Gf" core="8">
       <prop id="wattage_per_state" value="120.0:250.0"/>
+      <prop id="ram_mb" value="8192"/>
     </host>
     <host id="hostA4" speed="2.4Gf" core="8">
       <prop id="wattage_per_state" value="120.0:250.0"/>
+      <prop id="ram_mb" value="8192"/>
     </host>
     <host id="hostA5" speed="2.4Gf" core="8">
       <prop id="wattage_per_state" value="120.0:250.0"/>
+      <prop id="ram_mb" value="8192"/>
     </host>
     <host id="hostA6" speed="2.4Gf" core="8">
       <prop id="wattage_per_state" value="120.0:250.0"/>
+      <prop id="ram_mb" value="8192"/>
     </host>
 
     <!-- ================================================================ -->
     <!-- TYPE B: Medium Capacity (8 hosts)                                 -->
-    <!-- 4 cores @ 2.0 GHz  |  idle: 80 W   |  peak: 170 W               -->
+    <!-- 4 cores @ 2.0 GHz  |  4 GB RAM  |  idle: 80 W   |  peak: 170 W   -->
     <!-- ================================================================ -->
     <host id="hostB1" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB2" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB3" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB4" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB5" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB6" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB7" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
     <host id="hostB8" speed="2.0Gf" core="4">
       <prop id="wattage_per_state" value="80.0:170.0"/>
+      <prop id="ram_mb" value="4096"/>
     </host>
 
     <!-- ================================================================ -->
     <!-- TYPE C: Low Capacity (6 hosts)                                    -->
-    <!-- 2 cores @ 1.6 GHz  |  idle: 50 W   |  peak: 110 W               -->
+    <!-- 2 cores @ 1.6 GHz  |  2 GB RAM  |  idle: 50 W   |  peak: 110 W   -->
     <!-- ================================================================ -->
     <host id="hostC1" speed="1.6Gf" core="2">
       <prop id="wattage_per_state" value="50.0:110.0"/>
+      <prop id="ram_mb" value="2048"/>
     </host>
     <host id="hostC2" speed="1.6Gf" core="2">
       <prop id="wattage_per_state" value="50.0:110.0"/>
+      <prop id="ram_mb" value="2048"/>
     </host>
     <host id="hostC3" speed="1.6Gf" core="2">
       <prop id="wattage_per_state" value="50.0:110.0"/>
+      <prop id="ram_mb" value="2048"/>
     </host>
     <host id="hostC4" speed="1.6Gf" core="2">
       <prop id="wattage_per_state" value="50.0:110.0"/>
+      <prop id="ram_mb" value="2048"/>
     </host>
     <host id="hostC5" speed="1.6Gf" core="2">
       <prop id="wattage_per_state" value="50.0:110.0"/>
+      <prop id="ram_mb" value="2048"/>
     </host>
     <host id="hostC6" speed="1.6Gf" core="2">
       <prop id="wattage_per_state" value="50.0:110.0"/>
+      <prop id="ram_mb" value="2048"/>
     </host>
 
     <!-- ================================================================ -->
